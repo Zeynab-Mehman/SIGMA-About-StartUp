@@ -1,0 +1,46 @@
+/* Import tokens */
+@import "tokens.css";
+
+/* Layout styles */
+:where(.is-layout-flex) {
+  gap: 0.5em;
+}
+
+body .is-layout-flow > .alignleft {
+  float: left;
+  margin-inline-start: 0;
+  margin-inline-end: 2em;
+}
+
+/* ... Add other layout styles here ... */
+
+/* Color classes */
+.has-black-color {
+  color: var(--color-black) !important;
+}
+
+.has-cyan-bluish-gray-color {
+  color: var(--color-cyan-bluish-gray) !important;
+}
+
+/* ... Add other color classes here ... */
+
+/* Gradient classes */
+.has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+  background: var(--gradient-vivid-cyan-blue-to-vivid-purple) !important;
+}
+
+/* ... Add other gradient classes here ... */
+
+/* Font size classes */
+.has-small-font-size {
+  font-size: var(--font-size-small) !important;
+}
+
+/* ... Add other font size classes here ... */
+
+/* Shadow classes */
+/* ... Add shadow classes here ... */
+
+/* Other custom classes */
+/* ... Add other custom classes here ... */
